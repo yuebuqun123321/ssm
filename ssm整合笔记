@@ -1,0 +1,17 @@
+
+1.新建maven web工程，设置创建web.xml文件
+
+2.导入需要的依赖,详见pom.xml
+
+3.编写web.xml
+	加载spring配置文件，配置spring容器监听器
+	配置DispatcherServlet,加载springmvc配置文件
+	配置HiddenHttpMethodFilter实现Rest风格url
+	配置字符编码过滤器
+4.使用逆向工程生成mybatis需要的bean、mapper接口、mapper配置文件	
+
+5.编写mybatis全局配置文件
+
+6.编写springmvc配置文件
+
+7.编写spring配置文件
